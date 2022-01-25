@@ -1,0 +1,88 @@
+html {
+  margin-left: -10px;
+  max-width: 300px;
+  max-height: 350px;
+}
+
+header {
+  margin-top: -10px;
+  text-align: center;
+  min-width: 300px;
+  background-color: rgb(0, 255, 255);
+}
+
+main {
+  text-align: center;
+  h2 {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    &:after {
+      border-bottom: 1px solid rgb(0, 0, 0);
+      content: "";
+      display: block;
+      margin-left: 12.5%;
+      width: 75%;
+    }
+  }
+  form {
+    margin-left: 5px;
+    text-align: left;
+  }
+}
+
+h1 {
+  margin-left: 10px;
+  color: black;
+}
+
+#icon {
+  margin: auto;
+  align-items: center;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+form {
+  width: 100%;
+  div {
+    border-left: solid 1px black;
+    margin-top: -10%;
+    display: table;
+    height: 10%;
+    width: 100%;
+    label {
+      display: table-cell;
+      vertical-align: middle;
+    }
+    input {
+      height: 100%;
+      margin-top: -1px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+  div:first-of-type {
+    margin-top: 0;
+  }
+  div:nth-of-type(even) {
+    background-color: rgba(0, 255, 255, 0.24);
+  }
+}
+
+#Area {
+  margin-top: -5%;
+  min-width: 300px;
+  height: 100%;
+}
+
+#start {
+  align-self: center;
+  min-width: 300px;
+}
+
+span {
+  text-align: center;
+  display: none;
+  text-align: center;
+}
